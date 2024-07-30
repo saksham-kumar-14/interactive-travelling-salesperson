@@ -145,7 +145,7 @@ def main():
 			t = current_shortest_path.connections
 			for i in range(len(t)):
 				if i!=0:
-					pygame.draw.line(screen, (255,0,0), (t[i-1].x, t[i-1].y), (t[i].x, t[i].y))
+					pygame.draw.line(screen, (255,0,0), (t[i-1].x, t[i-1].y), (t[i].x, t[i].y) ,7)
 
 		else:
 			pygame.draw.rect(screen, btn_color, pygame.Rect(btn_x, btn_y, btn_width, btn_height))
